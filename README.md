@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ```python
 from ultralytics import YOLO
-model = YOLO('yolov8n.pt')  # Automatically downloads model and save it in folder models/
+model = YOLO('yolov8l.pt')  # Automatically downloads model and save it in folder models/
 ```
 
 ---
