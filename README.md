@@ -62,21 +62,7 @@ pip install -r requirements.txt
 
 ```python
 from ultralytics import YOLO
-model = YOLO('yolov8n.pt')  # Automatically downloads model
-```
-
----
-
-## 📹 Input Videos
-
-Download the two test videos from the [Flickit assignment Google Drive](https://drive.google.com/drive/folders/1SonJ60j_ewrPLj0eGUYImgZlzxfgBQUC?usp=sharing).
-
-Place them in:
-
-```
-data/raw_videos/test1.mp4
-
-data/raw_videos/test2.mp4
+model = YOLO('yolov8n.pt')  # Automatically downloads model and save it in folder models/
 ```
 
 ---
@@ -114,18 +100,6 @@ outputs/test2_output.avi
 
 ---
 
-## ⚙️ Dependencies (from requirements.txt)
-
-```txt
-ultralytics==8.0.197
-opencv-python==4.9.0.80
-numpy==1.26.4
-filterpy==1.4.5
-matplotlib==3.8.4
-```
-
----
-
 ## 📌 Notes
 
 * The action ball is determined using motion tracking across frames.
@@ -141,10 +115,3 @@ matplotlib==3.8.4
 
 ---
 
-## 📧 Contact
-
-For any questions or suggestions, feel free to open an issue or contact \[[your.email@example.com](mailto:your.email@example.com)].
-
----
-
-**Happy Tracking! ⚽**
